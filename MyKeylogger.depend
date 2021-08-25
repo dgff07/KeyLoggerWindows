@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1629148726 source:c:\users\user\documents\mykeylogger\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"keyInterpretor.h"
+
+1629148791 c:\users\user\documents\mykeylogger\keyinterpretor.h
+
+1629900049 source:c:\users\user\documents\scripts\mykeylogger\main.c
+	<stdio.h>
+	<stdlib.h>
+	<winsock2.h>
+	<windows.h>
+	"hookManager.h"
+	"buffer.h"
+
+1629300821 c:\users\user\documents\scripts\mykeylogger\keyinterpretor.h
+
+1629586780 c:\users\user\documents\scripts\mykeylogger\hookmanager.h
+	"keyInterpretor.h"
+	"buffer.h"
+	"emailSender.h"
+
+1629900727 c:\users\user\documents\scripts\mykeylogger\buffer.h
+	<string.h>
+
+1629900083 c:\users\user\documents\scripts\mykeylogger\emailsender.h
+	<wingdi.h>
+	"base64Encoder.h"
+
+1629499801 c:\users\user\documents\scripts\mykeylogger\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"typecheck-gcc.h"
+
+1629499801 c:\users\user\documents\scripts\mykeylogger\include\curl\curlver.h
+
+1629499802 c:\users\user\documents\scripts\mykeylogger\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1629499801 c:\users\user\documents\scripts\mykeylogger\include\curl\easy.h
+
+1629499801 c:\users\user\documents\scripts\mykeylogger\include\curl\multi.h
+	"curl.h"
+
+1629499803 c:\users\user\documents\scripts\mykeylogger\include\curl\urlapi.h
+	"curl.h"
+
+1629499801 c:\users\user\documents\scripts\mykeylogger\include\curl\options.h
+
+1629499802 c:\users\user\documents\scripts\mykeylogger\include\curl\typecheck-gcc.h
+
+1629805469 c:\users\user\documents\scripts\mykeylogger\base64encoder.h
+	"stdint.h"
+
