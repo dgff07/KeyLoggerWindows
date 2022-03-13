@@ -1,4 +1,4 @@
-# Keylogger for windows#
+# Keylogger for windows
 
 Simple keylogger for windows to capture the keystrokes and also take a screenshot from the target.
 
